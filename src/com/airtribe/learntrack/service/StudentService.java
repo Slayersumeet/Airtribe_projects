@@ -14,7 +14,6 @@ public class StudentService {
         repository.addStudent(student);
     }
 
-
     public List<Student> getAllStudents() {
         return repository.getAllStudents();
     }

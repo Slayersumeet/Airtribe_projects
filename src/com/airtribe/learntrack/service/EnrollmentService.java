@@ -24,7 +24,6 @@ public class EnrollmentService {
         }
         return enrollment;
     }
-
     public void updateStatus(int id, String status) {
         Enrollment enrollment = getEnrollmentById(id);
         enrollment.setStatus(status);

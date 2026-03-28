@@ -47,7 +47,6 @@ public class Main {
         }
     }
 
-    // ---------------- STUDENT MENU ----------------
 
     private static void studentMenu() {
         while (true) {
@@ -133,8 +132,6 @@ public class Main {
     }
 
 
-    // ---------------- COURSE MENU ----------------
-
     private static void courseMenu(){
         while(true){
             System.out.println("\n--- Course Menu ---");
@@ -216,7 +213,6 @@ public class Main {
     }
 
 
-    // ---------------- ENROLLMENT MENU ----------------
 
     private static void enrollmentMenu(){
         while(true){

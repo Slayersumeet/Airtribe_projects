@@ -22,7 +22,6 @@ public class CourseRepository {
         }
         return null;
     }
-
     public void removeCourse(int id) {
         courses.removeIf(c -> c.getId() == id);
     }

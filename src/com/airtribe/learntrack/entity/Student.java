@@ -16,7 +16,6 @@ public class Student extends Person {
         this.batch = batch;
     }
 
-
     public String getBatch() {
         return batch;
     }

@@ -24,7 +24,6 @@ public class EnrollmentRepository {
         }
         return null;
     }
-
     public void removeEnrollment(int id) {
         enrollments.removeIf(e -> e.getId() == id);
     }

@@ -24,7 +24,6 @@ public class CourseService {
         }
         return course;
     }
-
     public void deactivateCourse(int id) {
         Course course = repository.getCourseById(id);
         if (course == null) {

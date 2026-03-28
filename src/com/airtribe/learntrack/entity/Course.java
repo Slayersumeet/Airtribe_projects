@@ -14,7 +14,6 @@ public class Course {
         this.description = description;
         this.durationInWeeks = durationInWeeks;
     }
-
     public Course(int id, String courseName, int durationInWeeks) {
         this.id = id;
         this.courseName = courseName;

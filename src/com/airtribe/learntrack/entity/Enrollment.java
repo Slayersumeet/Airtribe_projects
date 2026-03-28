@@ -10,7 +10,6 @@ public class Enrollment {
     private LocalDate enrollmentDate;
     private String status;
 
-
     public Enrollment(int id, int studentId, int courseId, LocalDate enrollmentDate, String status) {
         this.id = id;
         this.studentId = studentId;

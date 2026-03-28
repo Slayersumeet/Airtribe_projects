@@ -22,7 +22,6 @@ public class StudentRepository {
         }
         return null;
     }
-
     public void removeStudent(int id) {
         students.removeIf(s -> s.getId() == id);
     }

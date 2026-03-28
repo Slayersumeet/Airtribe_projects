@@ -13,7 +13,6 @@ public class IdGenerator {
     public static int getCourseId() {
         return courseIdCounter++;
     }
-
     public static int getEnrollmentId() {
         return enrollmentIdCounter++;
     }
